@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteOne,,,2018-11-06 15:07:30,2018-11-06 15:07:38,8.525s,PASSED
+,,,,,,
+Test Cases/TestTwo_APIChaining,,,2018-11-06 15:07:31,2018-11-06 15:07:35,4.414s,PASSED
+Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCountryListByNames)),,,2018-11-06 15:07:32,2018-11-06 15:07:33,1.923s,PASSED
+Statement - xml1 = responseBodyContent,,,2018-11-06 15:07:33,2018-11-06 15:07:34,0.647s,PASSED
+Statement - dataValue = new groovy.util.XmlSlurper().parseText(xml1),,,2018-11-06 15:07:34,2018-11-06 15:07:34,0.125s,PASSED
+Statement - countryCode = sISOCode.text(),,,2018-11-06 15:07:34,2018-11-06 15:07:34,0.031s,PASSED
+Statement - countryCode = countryCode,,,2018-11-06 15:07:34,2018-11-06 15:07:34,0.043s,PASSED
+"Statement - println("".... value for Global Variable is : "" + countryCode)",,,2018-11-06 15:07:34,2018-11-06 15:07:34,0.014s,PASSED
+sendRequest,,,2018-11-06 15:07:34,2018-11-06 15:07:35,0.684s,PASSED
+,,,,,,
+Test Cases/TestOne,,,2018-11-06 15:07:35,2018-11-06 15:07:38,3.002s,PASSED
+sendRequest,,,2018-11-06 15:07:35,2018-11-06 15:07:36,0.817s,PASSED
+sendRequestAndVerify,,,2018-11-06 15:07:36,2018-11-06 15:07:38,1.921s,PASSED

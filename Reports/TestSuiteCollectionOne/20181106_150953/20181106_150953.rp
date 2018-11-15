@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20181106_150953</name>
+   <tag></tag>
+   <displayName>20181106_150953</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/TestSuiteOne/20181106_150953</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Service</groupName>
+            <profileName>QA</profileName>
+            <runConfigurationId>Web Service</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/TestSuiteOne/20181106_150954</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Service</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Web Service</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

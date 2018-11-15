@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteFour,,,2018-11-08 14:26:56,2018-11-08 14:27:00,4.515s,PASSED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-08 14:26:57,2018-11-08 14:26:59,2.484s,PASSED
+"Statement - println(""... country Code now is : "" + CountryCode)",,,2018-11-08 14:26:57,2018-11-08 14:26:57,0.008s,PASSED
+"Statement - println(""... currency now is : "" + Currency1)",,,2018-11-08 14:26:57,2018-11-08 14:26:57,0.009s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency, [countryISOCode:CountryCode, authorization:Basic VXNlcjE6UGFzczE=]))",,,2018-11-08 14:26:57,2018-11-08 14:26:59,1.596s,PASSED
+verifyElementText,,,2018-11-08 14:26:59,2018-11-08 14:26:59,0.325s,PASSED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-08 14:26:59,2018-11-08 14:27:00,0.671s,PASSED
+"Statement - println(""... country Code now is : "" + CountryCode)",,,2018-11-08 14:26:59,2018-11-08 14:26:59,0.001s,PASSED
+"Statement - println(""... currency now is : "" + Currency1)",,,2018-11-08 14:26:59,2018-11-08 14:26:59,0.002s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency, [countryISOCode:CountryCode, authorization:Basic VXNlcjE6UGFzczE=]))",,,2018-11-08 14:26:59,2018-11-08 14:27:00,0.595s,PASSED
+verifyElementText,,,2018-11-08 14:27:00,2018-11-08 14:27:00,0.053s,PASSED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-08 14:27:00,2018-11-08 14:27:00,0.646s,PASSED
+"Statement - println(""... country Code now is : "" + CountryCode)",,,2018-11-08 14:27:00,2018-11-08 14:27:00,0.001s,PASSED
+"Statement - println(""... currency now is : "" + Currency1)",,,2018-11-08 14:27:00,2018-11-08 14:27:00,0.002s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency, [countryISOCode:CountryCode, authorization:Basic VXNlcjE6UGFzczE=]))",,,2018-11-08 14:27:00,2018-11-08 14:27:00,0.585s,PASSED
+verifyElementText,,,2018-11-08 14:27:00,2018-11-08 14:27:00,0.038s,PASSED

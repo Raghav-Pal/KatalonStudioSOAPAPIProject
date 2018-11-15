@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteOne,,,2018-11-06 15:49:47,2018-11-06 15:49:51,3.878s,ERROR
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-06 15:49:47,2018-11-06 15:49:51,3.273s,ERROR
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency)),,,2018-11-06 15:49:48,2018-11-06 15:49:51,2.923s,PASSED
+verifyElementText,,,2018-11-06 15:49:51,2018-11-06 15:49:51,0.005s,PASSED

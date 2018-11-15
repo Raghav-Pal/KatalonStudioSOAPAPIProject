@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteFour,,,2018-11-08 14:16:06,2018-11-08 14:16:11,5.228s,FAILED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-08 14:16:07,2018-11-08 14:16:10,3.320s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency)),,,2018-11-08 14:16:07,2018-11-08 14:16:09,2.498s,PASSED
+Statement - curr = java.util.Currency.toString(),,,2018-11-08 14:16:09,2018-11-08 14:16:09,0.004s,PASSED
+"Statement - println("".. Value of curr is : "" + curr)",,,2018-11-08 14:16:09,2018-11-08 14:16:09,0.005s,PASSED
+verifyElementText,,,2018-11-08 14:16:09,2018-11-08 14:16:10,0.390s,FAILED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-08 14:16:10,2018-11-08 14:16:11,0.677s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency)),,,2018-11-08 14:16:10,2018-11-08 14:16:11,0.629s,PASSED
+Statement - curr = java.util.Currency.toString(),,,2018-11-08 14:16:11,2018-11-08 14:16:11,0.001s,PASSED
+"Statement - println("".. Value of curr is : "" + curr)",,,2018-11-08 14:16:11,2018-11-08 14:16:11,0.001s,PASSED
+verifyElementText,,,2018-11-08 14:16:11,2018-11-08 14:16:11,0.029s,FAILED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-08 14:16:11,2018-11-08 14:16:11,0.675s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency)),,,2018-11-08 14:16:11,2018-11-08 14:16:11,0.614s,PASSED
+Statement - curr = java.util.Currency.toString(),,,2018-11-08 14:16:11,2018-11-08 14:16:11,0.002s,PASSED
+"Statement - println("".. Value of curr is : "" + curr)",,,2018-11-08 14:16:11,2018-11-08 14:16:11,0.002s,PASSED
+verifyElementText,,,2018-11-08 14:16:11,2018-11-08 14:16:11,0.039s,FAILED

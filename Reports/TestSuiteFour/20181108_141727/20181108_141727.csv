@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteFour,,,2018-11-08 14:17:29,2018-11-08 14:17:34,5.184s,FAILED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-08 14:17:30,2018-11-08 14:17:33,3.180s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency)),,,2018-11-08 14:17:30,2018-11-08 14:17:33,2.442s,PASSED
+Statement - curr = Currency,,,2018-11-08 14:17:33,2018-11-08 14:17:33,0.004s,PASSED
+"Statement - println("".. Value of curr is : "" + curr)",,,2018-11-08 14:17:33,2018-11-08 14:17:33,0.006s,PASSED
+verifyElementText,,,2018-11-08 14:17:33,2018-11-08 14:17:33,0.303s,FAILED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-08 14:17:33,2018-11-08 14:17:34,0.737s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency)),,,2018-11-08 14:17:33,2018-11-08 14:17:34,0.657s,PASSED
+Statement - curr = Currency,,,2018-11-08 14:17:34,2018-11-08 14:17:34,0.001s,PASSED
+"Statement - println("".. Value of curr is : "" + curr)",,,2018-11-08 14:17:34,2018-11-08 14:17:34,0.002s,PASSED
+verifyElementText,,,2018-11-08 14:17:34,2018-11-08 14:17:34,0.033s,FAILED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-08 14:17:34,2018-11-08 14:17:34,0.667s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CountryInfoSOAPService/GetCurrency)),,,2018-11-08 14:17:34,2018-11-08 14:17:34,0.613s,PASSED
+Statement - curr = Currency,,,2018-11-08 14:17:34,2018-11-08 14:17:34,0.001s,PASSED
+"Statement - println("".. Value of curr is : "" + curr)",,,2018-11-08 14:17:34,2018-11-08 14:17:34,0.001s,PASSED
+verifyElementText,,,2018-11-08 14:17:34,2018-11-08 14:17:34,0.036s,FAILED

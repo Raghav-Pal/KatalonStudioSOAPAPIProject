@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteOne,,,2018-11-06 15:47:10,2018-11-06 15:47:13,3.465s,PASSED
+,,,,,,
+Test Cases/TestFour_DataDrivenTesting,,,2018-11-06 15:47:11,2018-11-06 15:47:13,2.893s,PASSED
+sendRequest,,,2018-11-06 15:47:11,2018-11-06 15:47:13,2.567s,PASSED
